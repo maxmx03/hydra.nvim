@@ -7,6 +7,7 @@
 local config = require('hydra.config')
 local colors = require('hydra.colors')
 local color = require('hydra.color')
+local highlights = require('hydra.highlights')
 
 ---@type hydra
 local M = {}
@@ -30,6 +31,8 @@ M.load = function()
   end
 
   vim.g.colors_name = 'hydra'
+
+  highlights.load(M.colors, M.config)
 end
 
 return M
