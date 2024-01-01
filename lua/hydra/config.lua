@@ -16,6 +16,7 @@ M.on_colors = nil
 M.modules = {
   treesitter = true,
   semantic = true,
+  tree = true,
 }
 
 return M
