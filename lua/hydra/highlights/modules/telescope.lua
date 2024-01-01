@@ -8,7 +8,7 @@ M.load = function(opts)
   local blend = opts.color.blend
   local alpha = 0.2
 
-  hl('TelescopeSelection', { fg = c.yellow })
+  hl('TelescopeSelection', { link = 'CursorLine' })
   hl('TelescopeSelectionCaret', { fg = c.red })
   hl('TelescopeMultiSelection', { fg = c.yellow })
   hl('TelescopeMultiIcon', { fg = c.red })
@@ -38,7 +38,7 @@ M.load = function(opts)
   hl('TelescopePromptCounter', { link = 'NonText' })
 
   -- Used for highlighting characters that you match.
-  hl('TelescopeMatching', { link = 'IncSearch' })
+  hl('TelescopeMatching', { fg = c.yellow })
 
   -- Used for the prompt prefix
   hl('TelescopePromptPrefix', { fg = c.red })
