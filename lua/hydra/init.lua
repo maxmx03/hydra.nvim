@@ -25,11 +25,15 @@ M.setup = function(opts)
 end
 
 M.load = function()
-  vim.cmd.hi('clear')
-  if vim.fn.exists('syntax_on') then
-    vim.cmd.syntax('reset')
+  if vim.g.colors_name then
+    vim.cmd('hi clear')
   end
 
+  if vim.fn.exists('syntax_on') then
+    vim.cmd('syntax reset')
+  end
+
+  vim.o.termguicolors = true
   vim.g.colors_name = 'hydra'
 
   highlights.load(M.colors, M.config)

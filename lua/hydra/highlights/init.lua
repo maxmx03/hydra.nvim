@@ -72,24 +72,25 @@ M.load = function(colors, config)
     colors = colors,
     config = config,
   })
-  local syntax = require('hydra.highlights.editor')
+  local syntax = require('hydra.highlights.syntax')
   syntax.load({
     hl = nvim_set_hl,
     color = color,
     colors = colors,
     config = config,
   })
-  M.load_modules({
-    hl = nvim_set_hl,
-    color = color,
-    colors = colors,
-    config = config,
-  })
-
-  if type(config.on_highlights) == 'function' then
-    local highlight_groups = config.on_highlights(colors, color)
-    M.on_highlights(highlight_groups)
-  end
+  print('loadds???')
+  -- M.load_modules({
+  --   hl = nvim_set_hl,
+  --   color = color,
+  --   colors = colors,
+  --   config = config,
+  -- })
+  --
+  -- if type(config.on_highlights) == 'function' then
+  --   local highlight_groups = config.on_highlights(colors, color)
+  --   M.on_highlights(highlight_groups)
+  -- end
 end
 
 return M
