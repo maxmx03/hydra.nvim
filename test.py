@@ -21,7 +21,6 @@ if __name__ == "__main__":
         commands.append("sudo luarocks install luacheck")
         commands.append("sudo luarocks install vusted")
 
-    commands.append("stylua . -f ./stylua.toml")
     commands.append("vusted ./tests")
 
     run_commands(commands)
