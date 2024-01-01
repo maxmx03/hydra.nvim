@@ -20,7 +20,10 @@ M.setup = function(opts)
 
   if not vim.tbl_isempty(opts) then
     M.config = vim.tbl_deep_extend('force', M.config, opts)
-    M.colors = vim.tbl_deep_extend('force', M.colors, opts.on_colors(colors, color))
+
+    if type(opts.on_colors) == 'function' then
+      M.colors = vim.tbl_deep_extend('force', M.colors, opts.on_colors(colors, color))
+    end
   end
 end
 

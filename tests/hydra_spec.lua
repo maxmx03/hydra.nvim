@@ -2,6 +2,7 @@ local nvim_get_hl = require('hydra.test').nvim_get_hl
 
 describe('Hydra', function()
   setup(function()
+    require('hydra').setup({})
     vim.cmd.colorscheme('hydra')
   end)
 
