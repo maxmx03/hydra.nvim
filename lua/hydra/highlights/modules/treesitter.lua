@@ -102,7 +102,7 @@ M.load = function(opts)
 
   hl('@tag', { fg = c.green })                                -- XML tag names
   hl('@tag.attribute', { link = '@property' })                -- XML tag attributes
-  hl('@tag.delimiter', { fg = c.green })                      -- XML tag delimiters
+  hl('@tag.delimiter', { link = 'Delimiter' })                -- XML tag delimiters
 
   -- hl('@conceal')                               -- for captures that are only used for concealing
   -- hl('@spell')                                 -- for defining regions to be spellchecked
