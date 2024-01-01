@@ -6,6 +6,7 @@
 ---@field lsp boolean
 ---@field diagnostic boolean
 ---@field gitsign boolean
+---@field dashboard boolean
 
 ---@class hydra.config
 ---@field transparent boolean
@@ -26,6 +27,7 @@ M.modules = {
   lsp = true,
   diagnostic = true,
   gitsign = true,
+  dashboard = true,
 }
 
 return M
