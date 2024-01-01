@@ -8,7 +8,7 @@ M.load = function(opts)
   local blend = opts.color.blend
   local alpha = 0.2
 
-  hl('TelescopeSelection', { link = 'CursorLine' })
+  hl('TelescopeSelection', { fg = c.yellow })
   hl('TelescopeSelectionCaret', { fg = c.red })
   hl('TelescopeMultiSelection', { fg = c.yellow })
   hl('TelescopeMultiIcon', { fg = c.red })
@@ -22,7 +22,7 @@ M.load = function(opts)
   -- Border highlight groups.
   --   Use TelescopeBorder to override the default.
   --   Otherwise set them specifically
-  hl('TelescopeBorder', { link = 'WinSeparator' })
+  hl('TelescopeBorder', { fg = c.base02, bg = c.base04 })
   hl('TelescopePromptBorder', { link = 'TelescopeBorder' })
   hl('TelescopeResultsBorder', { link = 'TelescopeBorder' })
   hl('TelescopePreviewBorder', { link = 'TelescopeBorder' })
