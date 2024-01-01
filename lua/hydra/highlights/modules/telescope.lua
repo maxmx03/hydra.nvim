@@ -30,7 +30,7 @@ M.load = function(opts)
   -- Title highlight groups.
   --   Use TelescopeTitle to override the default.
   --   Otherwise set them specifically
-  hl('TelescopeTitle', { fg = c.yellow, bg = blend(c.yellow, c.base04, alpha) })
+  hl('TelescopeTitle', { fg = c.yellow, bg = blend(c.pink, c.base04, alpha) })
   hl('TelescopePromptTitle', { link = 'TelescopeTitle' })
   hl('TelescopeResultsTitle', { link = 'TelescopeTitle' })
   hl('TelescopePreviewTitle', { link = 'TelescopeTitle' })
@@ -38,7 +38,7 @@ M.load = function(opts)
   hl('TelescopePromptCounter', { link = 'NonText' })
 
   -- Used for highlighting characters that you match.
-  hl('TelescopeMatching', { fg = c.yellow })
+  hl('TelescopeMatching', { link = 'IncSearch' })
 
   -- Used for the prompt prefix
   hl('TelescopePromptPrefix', { fg = c.red })
