@@ -8,7 +8,7 @@ M.load = function(opts)
 
   hl('ColorColumn', { bg = c.base03 }) -- used for columns
   hl('Conceal', { fg = c.blue }) -- placeholder characters
-  hl('CurSearch', { fg = c.base2, bg = c.base02 }) -- highlight under cursor
+  hl('CurSearch', { fg = c.green, bg = c.base02 }) -- highlight under cursor
   hl('Cursor', { fg = c.base03, bg = c.blue }) -- character under cursor
   hl('lCursor', { link = 'Cursor' }) -- character under the cursor
   hl('CursorIM', { link = 'Cursor' }) -- like cursor, but IME mode
@@ -27,15 +27,15 @@ M.load = function(opts)
   hl('Folded', { fg = c.base0, bg = c.base02 }) -- Line used for closed folds
   hl('FoldColumn', { fg = c.base0, bg = c.base04 }) -- 'foldcolumn'
   hl('SignColumn', { fg = c.base0, bg = c.base03 }, { transparent = config.transparent }) -- Column were signs are displayed
-  hl('IncSearch', { fg = c.base3, bg = c.base04, bold = true }, { transparent = config.transparent }) -- 'incsearch' highlighting, also for the text replaced
+  hl('IncSearch', { fg = c.green, bg = c.base04, bold = true }, { transparent = config.transparent }) -- 'incsearch' highlighting, also for the text replaced
   hl('Substitute', { fg = c.orange, reverse = true }) -- :substitute replacement text highlight
   hl('LineNr', { fg = c.base01, bg = c.base03 }, { transparent = config.transparent }) -- Line number for ":number" and ":#" commands
   hl('LineNrAbove', { link = 'LineNr' }) -- Line number, above the cursor line
   hl('LineNrBelow', { link = 'LineNr' }) -- Line number, below the cursor
-  hl('CursorLineNr', { fg = c.base2, bg = c.base03 }, { transparent = config.transparent }) -- Like LineNr when 'cursorline' is set
+  hl('CursorLineNr', { fg = c.white, bg = c.base03 }, { transparent = config.transparent }) -- Like LineNr when 'cursorline' is set
   hl('CursorLineFold', { link = 'FoldColumn' }) -- Like FoldColumn when 'cursorline' is set
   hl('CursorLineSign', { link = 'SignColumn' }) -- Like SignColumn when 'cursorline' is set
-  hl('MatchParen', { fg = c.base2 }) -- Character under the cursor or just before it
+  hl('MatchParen', { fg = c.green }) -- Character under the cursor or just before it
   hl('ModeMsg', { link = 'Normal' }) -- 'showmode' message (e.g., "-- INSERT --")
   hl('MsgArea', { link = 'Normal' }) -- 'Area for messages and cmdline'
   hl('MsgSeparator', { link = 'Normal' }) -- Separator for scrolled messages msgsep.
