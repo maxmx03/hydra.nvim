@@ -9,7 +9,7 @@ M.load = function(opts)
   local alpha = 0.2
 
   hl('TelescopeSelection', { link = 'CursorLine' })
-  hl('TelescopeSelectionCaret', { fg = c.red })
+  hl('TelescopeSelectionCaret', { fg = c.red, bg = c.base02 })
   hl('TelescopeMultiSelection', { fg = c.yellow })
   hl('TelescopeMultiIcon', { fg = c.red })
 
