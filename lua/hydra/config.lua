@@ -1,6 +1,9 @@
 ---@class hydra.config.modules
 ---@field treesitter boolean
 ---@field semantic boolean
+---@field tree boolean
+---@field telescope boolean
+---@field lsp boolean
 
 ---@class hydra.config
 ---@field transparent boolean
@@ -18,6 +21,7 @@ M.modules = {
   semantic = true,
   tree = true,
   telescope = true,
+  lsp = true,
 }
 
 return M

@@ -67,7 +67,7 @@ M.load = function(opts)
   hl('TabLine', { bg = c.base04 })                                                                       -- Tab pages line, not active tab page label.
   hl('TabLineFill', { fg = c.base0, bg = c.base04 })                                                     -- Tab pages line, where there are no labels.
   hl('TabLineSel', { fg = c.white, bg = c.base03 })                                                      -- Tab pages line, active tab page label.
-  hl('Title', { fg = c.orange })                                                                         -- Titles for output from ":set all", ":autocmd" etc.
+  hl('Title', { fg = c.orange, bold = true })                                                            -- Titles for output from ":set all", ":autocmd" etc.
   hl('Visual', { bg = c.base02 })                                                                        -- Visual mode selection.
   hl('VisualNOS', { link = 'Visual' })                                                                   -- Visual mode selection when vim is "Not Owning the Selection".
   hl('WarningMsg', { fg = c.diagnostic.warn })                                                           -- Warning messages.
