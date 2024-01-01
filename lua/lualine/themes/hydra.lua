@@ -1,6 +1,6 @@
 local colors = require('hydra.colors')
 local color = require('hydra.color')
-local base05 = color.darken(colors.base03, 10)
+local base05 = color.darken(colors.base04, 10)
 
 local hydra = {}
 
