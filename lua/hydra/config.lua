@@ -5,6 +5,7 @@
 ---@field telescope boolean
 ---@field lsp boolean
 ---@field diagnostic boolean
+---@field gitsign boolean
 
 ---@class hydra.config
 ---@field transparent boolean
@@ -24,6 +25,7 @@ M.modules = {
   telescope = true,
   lsp = true,
   diagnostic = true,
+  gitsign = true,
 }
 
 return M
