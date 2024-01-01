@@ -4,6 +4,7 @@
 ---@field tree boolean
 ---@field telescope boolean
 ---@field lsp boolean
+---@field diagnostic boolean
 
 ---@class hydra.config
 ---@field transparent boolean
@@ -22,6 +23,7 @@ M.modules = {
   tree = true,
   telescope = true,
   lsp = true,
+  diagnostic = true,
 }
 
 return M

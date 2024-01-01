@@ -8,6 +8,7 @@
 ---@field info string
 ---@field warn string
 ---@field error string
+---@field ok string
 
 ---@class hydra.colors
 ---@field base04 string
@@ -31,15 +32,15 @@ local M = {
   base03 = '#1c1e24', -- background
   base02 = '#202329', -- highlight
   base01 = '#53565c', -- comment
-  base0 = '#d4d4d6', -- foreground
-  pink = '#ff7eb6', -- keyword
-  blue = '#33b1ff', -- property, field
+  base0 = '#d4d4d6',  -- foreground
+  pink = '#ff7eb6',   -- keyword
+  blue = '#33b1ff',   -- property, field
   purple = '#b392f0', -- string
-  red = '#f97583', -- constant, boolean, number, float, parameter,
+  red = '#f97583',    -- constant, boolean, number, float, parameter,
   yellow = '#e5c07b', -- function, method
   orange = '#d19a66', -- Type, constructor
-  green = '#85e89d', -- htm-tag
-  white = '#ffffff', -- variable
+  green = '#85e89d',  -- htm-tag
+  white = '#ffffff',  -- variable
   git = {
     add = '#89ca78',
     change = '#d19a66',
@@ -50,6 +51,7 @@ local M = {
     info = '#61afef',
     warn = '#e5c07b',
     error = '#ef596f',
+    ok = '#89ca78',
   },
 }
 
