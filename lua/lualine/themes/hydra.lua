@@ -1,11 +1,13 @@
 local colors = require('hydra.colors')
+local color = require('hydra.color')
+local base05 = color.darken(colors.base03, 10)
 
 local hydra = {}
 
 hydra.normal = {
   a = { bg = colors.green, fg = colors.base03 },
   b = { bg = colors.base04, fg = colors.green },
-  c = { bg = colors.base04, fg = colors.base0 },
+  c = { bg = base05, fg = colors.base0 },
 }
 
 hydra.insert = {
@@ -14,7 +16,7 @@ hydra.insert = {
 }
 
 hydra.command = {
-  a = { bg = colors.purple, fg = colors.purple },
+  a = { bg = colors.purple, fg = colors.base03 },
   b = { bg = colors.base04, fg = colors.purple },
 }
 
