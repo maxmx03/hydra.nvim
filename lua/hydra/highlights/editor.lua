@@ -23,7 +23,7 @@ M.load = function(opts)
   hl('TermCursor', { link = 'Cursor' }) -- Cursor in a focused terminal
   hl('TermCursorNC', { fg = c.base03, bg = c.base0 }) -- Cursor in an unfocused terminal
   hl('ErrorMsg', { fg = c.diagnostic.error }) -- Error messages on the command line
-  hl('WinSeparator', { fg = c.base02, bg = c.base04 }, { transparent = config.transparent }) -- Separators between window splits
+  hl('WinSeparator', { fg = c.base02, bg = c.base03 }, { transparent = config.transparent }) -- Separators between window splits
   hl('Folded', { fg = c.base0, bg = c.base02 }) -- Line used for closed folds
   hl('FoldColumn', { fg = c.base0, bg = c.base04 }) -- 'foldcolumn'
   hl('SignColumn', { fg = c.base0, bg = c.base03 }, { transparent = config.transparent }) -- Column were signs are displayed

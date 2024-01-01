@@ -13,6 +13,9 @@ local M = {}
 M.transparent = false
 M.on_highlights = nil
 M.on_colors = nil
-M.modules = {}
+M.modules = {
+  treesitter = true,
+  semantic = true,
+}
 
 return M
