@@ -13,7 +13,7 @@ M.load = function(opts)
   hl('lCursor', { link = 'Cursor' })                                                                  -- character under the cursor
   hl('CursorIM', { link = 'Cursor' })                                                                 -- like cursor, but IME mode
   hl('CursorColumn', { link = 'ColorColumn' })                                                        -- screen-column at the cursor
-  hl('CursorLine')                                                                                    -- screen-line at the cursor
+  hl('CursorLine', { bg = c.base02 })                                                                                    -- screen-line at the cursor
   hl('Directory', { fg = c.orange })                                                                  -- directory names
   hl('DiffAdd', { fg = c.git.add })                                                                   -- Added line
   hl('DiffChange', { fg = c.git.change })                                                             -- Changed line
