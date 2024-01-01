@@ -5,7 +5,7 @@ M.load = function(opts)
   local hl = opts.hl
   local c = opts.colors
   local blend = opts.color.blend
-  local alpha = 0.3
+  local alpha = 0.25
 
   hl('DiagnosticError', { fg = c.diagnostic.error })                                                             -- Used as the base highlight group.(except Underline)
   hl('DiagnosticWarn', { fg = c.diagnostic.warn })                                                               --Used as the base highlight group.(except Underline)
