@@ -17,6 +17,7 @@ M.modules = {
   treesitter = true,
   semantic = true,
   tree = true,
+  telescope = true,
 }
 
 return M
