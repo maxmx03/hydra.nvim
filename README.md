@@ -17,7 +17,7 @@
   - [Api](#api)
 <!--toc:end-->
 
-Hydra colorscheme is based on onedarkpro and doom-one
+Hydra colorscheme is based on [onedarkpro](olimorris/onedarkpro.nvim) and [github-theme](projekt0n/github-nvim-theme)
 
 ## Installation
 

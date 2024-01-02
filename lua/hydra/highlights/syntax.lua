@@ -36,7 +36,7 @@ M.load = function(opts)
   hl('Delimiter', { fg = c.base0 }) -- character that needs attention
   hl('SpecialComment', { link = 'Keyword' }) -- special things inside a comment
   hl('Debug', { link = 'Keyword' }) -- debugging statements
-  hl('Underlined', { fg = c.purple, underline = true }) --text that stands out, HTML links
+  hl('Underlined', { fg = c.green, underline = true }) --text that stands out, HTML links
   hl('Ignore') --left blank, hidden  |hl-Ignore|
   hl('Error', { fg = c.diagnostic.error }) --any erroneous construct
   hl('Todo', { fg = c.red, bold = true }) --anything that needs extra attention; mostly the keywords TODO FIXME and X
