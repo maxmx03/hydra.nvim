@@ -4,7 +4,6 @@ local M = {}
 M.load = function(opts)
   local hl = opts.hl
   local c = opts.colors
-  local config = opts.config
   local blend = opts.color.blend
   local alpha = 0.2
 
@@ -14,7 +13,7 @@ M.load = function(opts)
   hl('TelescopeMultiIcon', { fg = c.red })
 
   -- "Normal" in the floating windows created by telescope.
-  hl('TelescopeNormal', { fg = c.base0, bg = c.base04 }, { transparent = config.transparent })
+  hl('TelescopeNormal', { fg = c.base0, bg = c.base04 })
   hl('TelescopePreviewNormal', { link = 'TelescopeNormal' })
   hl('TelescopePromptNormal', { link = 'TelescopeNormal' })
   hl('TelescopeResultsNormal', { link = 'TelescopeNormal' })
