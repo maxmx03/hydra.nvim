@@ -12,6 +12,7 @@
 ---@field noice boolean
 ---@field bufferline boolean
 ---@field hop boolean
+---@field illuminate boolean
 
 ---@class hydra.config
 ---@field transparent boolean
@@ -38,6 +39,7 @@ M.modules = {
   noice = true,
   bufferline = true,
   hop = true,
+  illuminate = true,
 }
 
 return M
