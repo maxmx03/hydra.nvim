@@ -19,6 +19,7 @@
 ---@field neotree boolean
 ---@field notify boolean
 ---@field saga boolean
+---@field whichkey boolean
 
 ---@class hydra.config
 ---@field transparent boolean
@@ -52,6 +53,7 @@ M.modules = {
   neotree = true,
   notify = true,
   saga = true,
+  whichkey = true,
 }
 
 return M
