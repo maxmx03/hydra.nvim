@@ -17,6 +17,7 @@
 ---@field mini boolean
 ---@field neogit boolean
 ---@field neotree boolean
+---@field notify boolean
 
 ---@class hydra.config
 ---@field transparent boolean
@@ -48,6 +49,7 @@ M.modules = {
   mini = true,
   neogit = true,
   neotree = true,
+  notify = true,
 }
 
 return M
