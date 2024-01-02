@@ -30,6 +30,7 @@ M.modules = {
   gitsign = true,
   dashboard = true,
   cmp = true,
+  navic = true,
 }
 
 return M
