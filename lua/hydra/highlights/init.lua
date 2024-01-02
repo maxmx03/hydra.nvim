@@ -20,7 +20,7 @@ local function nvim_get_hl(opts)
   local hl = vim.api.nvim_get_hl(0, opts)
 
   if hl.link then
-    return nvim_get_hl(opts)
+    return nvim_get_hl({ name = hl.link })
   end
 
   return hl
