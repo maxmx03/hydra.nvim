@@ -14,6 +14,7 @@
   - [Installation](#installation)
   - [Configuration](#configuration)
   - [Commands](#commands)
+  - [Docs](#docs)
   - [Api](#api)
 <!--toc:end-->
 
@@ -132,6 +133,12 @@ hydra.setup {
 ## Commands
 
 `Hydra colors`
+
+## Docs
+
+```lua
+h hydra
+```
 
 ## Api
 
