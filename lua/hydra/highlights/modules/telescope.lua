@@ -21,7 +21,7 @@ M.load = function(opts)
   -- Border highlight groups.
   --   Use TelescopeBorder to override the default.
   --   Otherwise set them specifically
-  hl('TelescopeBorder', { fg = c.base02, bg = c.base04 })
+  hl('TelescopeBorder', { fg = c.base01, bg = c.base04 })
   hl('TelescopePromptBorder', { link = 'TelescopeBorder' })
   hl('TelescopeResultsBorder', { link = 'TelescopeBorder' })
   hl('TelescopePreviewBorder', { link = 'TelescopeBorder' })
