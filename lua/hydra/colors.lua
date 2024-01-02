@@ -31,7 +31,7 @@
 local M = {
   base04 = '#181a1f', -- background dark
   base03 = '#1c1e24', -- background
-  base02 = '#202329', -- highlight
+  base02 = '#282c34', -- highlight
   base01 = '#53565c', -- comment
   base0 = '#d4d4d6',  -- foreground
   pink = '#ff7eb6',   -- keyword
