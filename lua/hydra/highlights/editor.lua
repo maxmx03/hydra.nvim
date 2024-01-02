@@ -46,7 +46,7 @@ M.load = function(opts)
   hl('FloatBorder', { link = 'WinSeparator' })                                                           -- Border of floating windows.
   hl('FloatTitle', { fg = c.orange })                                                                    -- Title of float windows.
   hl('NormalNC', { link = 'Normal' })                                                                    -- Normal text in non-current windows.
-  hl('Pmenu', { fg = c.base0, bg = c.base04 }, { transparent = config.transparent })                     -- Popup menu: Normal item
+  hl('Pmenu', { fg = c.base0, bg = c.base04 })                     -- Popup menu: Normal item
   hl('PmenuSel', { fg = c.blue, reverse = true })                                                        -- Popup menu: Selected item
   hl('PmenuKind', { link = 'Pmenu' })                                                                    -- Popup menu: Normal item kind
   hl('PmenuKindSel', { link = 'PmenuSel' })                                                              -- Popup menu: Selected item kind
