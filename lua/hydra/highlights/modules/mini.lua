@@ -46,7 +46,7 @@ M.load = function(opts)
 
   -- MiniStarter
   hl('MiniStarterCurrent', { link = 'CursorLine' })
-  hl('MiniStarterHeader', { fg = c.red })
+  hl('MiniStarterHeader', { fg = c.teal })
   hl('MiniStarterFooter', { fg = c.base01 })
   hl('MiniStarterItem', { fg = c.base0 })
   hl('MiniStarterItemBullet', { fg = c.red })
