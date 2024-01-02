@@ -7,6 +7,7 @@
 ---@field diagnostic boolean
 ---@field gitsign boolean
 ---@field dashboard boolean
+---@field cmp boolean
 
 ---@class hydra.config
 ---@field transparent boolean
@@ -28,6 +29,7 @@ M.modules = {
   diagnostic = true,
   gitsign = true,
   dashboard = true,
+  cmp = true,
 }
 
 return M
