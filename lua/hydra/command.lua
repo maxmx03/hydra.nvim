@@ -45,8 +45,8 @@ local subcommands = {
     end
 
     vim.api.nvim_set_option_value('modifiable', false, { buf = buf })
-    vim.api.nvim_set_option_value('filetype', 'Solarized', { buf = buf })
-    vim.api.nvim_buf_set_name(buf, 'Solarized Colors')
+    vim.api.nvim_set_option_value('filetype', 'Hydra', { buf = buf })
+    vim.api.nvim_buf_set_name(buf, 'Hydra Colors')
     vim.api.nvim_win_set_buf(0, buf)
   end,
 }
