@@ -7,6 +7,10 @@ M.load = function(opts)
   local darken = opts.color.darken
   local percentage = 25
 
+  -- MiniIndentScope
+  hl('MiniIndentscopeSymbolOff', { fg = darken(c.pink, 20), nocombine = true })
+  hl('MiniIndentscopeSymbol', { fg = c.pink, nocombine = true })
+
   -- MiniCursor
   hl('MiniCursorword', { link = 'Visual' })
 

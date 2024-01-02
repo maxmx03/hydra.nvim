@@ -21,6 +21,7 @@
 ---@field saga boolean
 ---@field whichkey boolean
 ---@field todo boolean
+---@field blankline boolean
 
 ---@class hydra.config
 ---@field transparent boolean
@@ -56,6 +57,7 @@ M.modules = {
   saga = true,
   whichkey = true,
   todo = true,
+  blankline = true,
 }
 
 return M

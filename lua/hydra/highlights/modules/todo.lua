@@ -11,6 +11,7 @@ M.load = function(opts)
   -- PERF: PERF
   -- NOTE: NOTE
   -- HACK: HACK
+  -- BUG: BUG
 
   hl('TodoFgTODO', { fg = c.diagnostic.info })
   hl('TodoFgWARN', { fg = c.diagnostic.warn })
