@@ -11,6 +11,7 @@
 ---@field navic boolean
 ---@field noice boolean
 ---@field bufferline boolean
+---@field hop boolean
 
 ---@class hydra.config
 ---@field transparent boolean
@@ -36,6 +37,7 @@ M.modules = {
   navic = true,
   noice = true,
   bufferline = true,
+  hop = true,
 }
 
 return M
