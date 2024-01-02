@@ -24,10 +24,10 @@
 ---@field blankline boolean
 
 ---@class hydra.config
----@field transparent boolean
+---@field transparent? boolean
 ---@field on_highlights? fun(colors: table, color: table)
 ---@field on_colors? fun(colors: table, color: table)
----@field modules hydra.config.modules
+---@field modules? hydra.config.modules
 
 ---@type hydra.config
 local M = {}
