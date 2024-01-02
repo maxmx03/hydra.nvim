@@ -25,8 +25,8 @@
 
 ---@class hydra.config
 ---@field transparent? boolean
----@field on_highlights? fun(colors: table, color: table): table
----@field on_colors? fun(colors: table, color: table): table
+---@field on_highlights? fun(colors: hydra.colors, color: hydra.color): table
+---@field on_colors? fun(colors: hydra.colors, color: hydra.color): table
 ---@field modules? hydra.config.modules
 
 ---@type hydra.config
