@@ -20,6 +20,7 @@
 ---@field notify boolean
 ---@field saga boolean
 ---@field whichkey boolean
+---@field todo boolean
 
 ---@class hydra.config
 ---@field transparent boolean
@@ -54,6 +55,7 @@ M.modules = {
   notify = true,
   saga = true,
   whichkey = true,
+  todo = true,
 }
 
 return M
