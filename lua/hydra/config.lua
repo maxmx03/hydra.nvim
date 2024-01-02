@@ -18,6 +18,7 @@
 ---@field neogit boolean
 ---@field neotree boolean
 ---@field notify boolean
+---@field saga boolean
 
 ---@class hydra.config
 ---@field transparent boolean
@@ -50,6 +51,7 @@ M.modules = {
   neogit = true,
   neotree = true,
   notify = true,
+  saga = true,
 }
 
 return M
