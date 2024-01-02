@@ -1,5 +1,14 @@
 # Hydra Colorscheme
 
+<div align="center">
+
+![Frame 1](https://github.com/maxmx03/hydra.nvim/assets/50273941/536e8b0d-faa1-4bca-b85f-b6228592642f)
+
+![Neovim](https://img.shields.io/badge/Neovim-v0.9.1+-blue?NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
+![LICENSE](https://shields.io/badge/LICENSE-MIT-orange?style=for-the-badge)
+
+</div>
+
 <!--toc:start-->
 - [Hydra Colorscheme](#hydra-colorscheme)
   - [Installation](#installation)
