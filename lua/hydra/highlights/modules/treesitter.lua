@@ -11,7 +11,7 @@ M.load = function(opts)
   hl('@none', { link = 'Ignore' })                            -- completely disable the highlight
   hl('@preproc', { link = 'Keyword' })                        -- various preprocessor directives & shebangs
   hl('@define', { link = 'Keyword' })                         -- preprocessor definition directives
-  hl('@operator', { link = 'Keyword' })                       -- symbolic operators (e.g. `+` / `*`)
+  hl('@operator', { link = 'Operator' })                       -- symbolic operators (e.g. `+` / `*`)
 
   hl('@punctuation.delimiter', { link = 'Delimiter' })        -- delimiters (e.g. `;` / `.` / `,`)
   hl('@punctuation.bracket', { link = 'Delimiter' })          -- brackets (e.g. `()` / `{}` / `[]`)
@@ -63,7 +63,7 @@ M.load = function(opts)
 
   hl('@storageclass', { link = 'Keyword' })                   -- modifiers that affect storage in memory or life-time
   hl('@attribute', { link = 'Function' })                     -- attribute annotations (e.g. Python decorators)
-  hl('@field', { fg = c.blue })                               -- object and struct fields
+  hl('@field', { fg = c.teal })                               -- object and struct fields
   hl('@property', { link = '@field' })                        -- similar to `@field`
 
   hl('@variable', { link = 'Identifier' })                    -- various variable names
