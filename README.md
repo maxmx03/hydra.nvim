@@ -1,9 +1,9 @@
 # Hydra Colorscheme
 
 <div align="center">
-
-![Frame 1](https://github.com/maxmx03/hydra.nvim/assets/50273941/536e8b0d-faa1-4bca-b85f-b6228592642f)
-
+  
+![20240102_14h24m19s_grim](https://github.com/maxmx03/hydra.nvim/assets/50273941/4414a2c4-371a-4a7d-bbbc-e29ba3dd76ad)
+  
 ![Neovim](https://img.shields.io/badge/Neovim-v0.9.1+-blue?NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
 ![LICENSE](https://shields.io/badge/LICENSE-MIT-orange?style=for-the-badge)
 
@@ -17,7 +17,7 @@
   - [Api](#api)
 <!--toc:end-->
 
-Hydra colorscheme is based on onedarkpro and doom-one
+Hydra colorscheme is based on onedarkpro
 
 ## Installation
 
