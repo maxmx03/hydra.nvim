@@ -19,7 +19,7 @@ M.load = function(opts)
   hl('Repeat', { link = 'Keyword' }) -- for, do, while, etc.
   hl('Label', { link = 'Keyword' }) -- case, default, etc.
   hl('Operator', { fg = c.red }) -- "sizeof", "+", "*", etc.
-  hl('Keyword', { fg = c.red, bold = true }) -- any other keyword
+  hl('Keyword', { fg = c.red }) -- any other keyword
   hl('Exception', { link = 'Keyword' }) -- try, catch, throw
   hl('PreProc', { link = 'Keyword' }) -- generic Preprocessor
   hl('Include', { link = 'Keyword' }) -- preprocessor #include
