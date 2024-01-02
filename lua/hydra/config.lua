@@ -13,6 +13,7 @@
 ---@field bufferline boolean
 ---@field hop boolean
 ---@field illuminate boolean
+---@field lazy boolean
 
 ---@class hydra.config
 ---@field transparent boolean
@@ -40,6 +41,7 @@ M.modules = {
   bufferline = true,
   hop = true,
   illuminate = true,
+  lazy = true,
 }
 
 return M
