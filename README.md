@@ -46,7 +46,21 @@ return {
 
 ## Configuration
 
+`.luarc.json`
+
+```json
+{
+  "workspace": {
+    "library": [
+      "~/.local/share/nvim/lazy/hydra.nvim"
+    ],
+  },
+}
+
+```
+
 ```lua
+---@type hydra
 local hydra = require 'hydra'
 hydra.setup {
     transparent = false,
@@ -76,6 +90,7 @@ hydra.setup {
       blankline = true,
     },
     on_colors = function(colors, color)
+        ---@type hydra.colors
         return {}
     end
     on_highlights = function (colors, color)
@@ -86,6 +101,7 @@ hydra.setup {
         local blend = color.blend
 
         return {
+            ---@type vim.api.keyset.highlight
             Function = { italic = false },
             Identifier = { bold = true },
             LineNr = {
