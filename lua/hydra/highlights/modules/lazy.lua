@@ -9,7 +9,7 @@ M.load = function(opts)
 
   hl('LazyButton', {
     fg = c.red,
-    bg = blend(c.purple, c.base04, alpha),
+    bg = blend(c.red, c.base04, alpha),
   })
   hl('LazyButtonActive', {
     fg = c.yellow,
