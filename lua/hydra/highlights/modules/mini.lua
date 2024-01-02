@@ -8,8 +8,8 @@ M.load = function(opts)
   local percentage = 25
 
   -- MiniIndentScope
-  hl('MiniIndentscopeSymbolOff', { fg = darken(c.pink, 20), nocombine = true })
-  hl('MiniIndentscopeSymbol', { fg = c.pink, nocombine = true })
+  hl('MiniIndentscopeSymbolOff', { fg = darken(c.red, 20), nocombine = true })
+  hl('MiniIndentscopeSymbol', { fg = c.red, nocombine = true })
 
   -- MiniCursor
   hl('MiniCursorword', { link = 'Visual' })
@@ -19,7 +19,7 @@ M.load = function(opts)
   hl('MiniStatuslineModeInsert', { fg = c.base03, bg = c.blue })
   hl('MiniStatuslineModeVisual', { fg = c.base03, bg = c.yellow })
   hl('MiniStatuslineModeReplace', { fg = c.base03, bg = c.red })
-  hl('MiniStatuslineModeCommand', { fg = c.base03, bg = c.purple })
+  hl('MiniStatuslineModeCommand', { fg = c.base03, bg = c.white })
   hl('MinistatusLineFileName', {
     bg = c.base04,
     fg = c.base0,
@@ -49,8 +49,8 @@ M.load = function(opts)
   hl('MiniStarterHeader', { fg = c.red })
   hl('MiniStarterFooter', { fg = c.base01 })
   hl('MiniStarterItem', { fg = c.base0 })
-  hl('MiniStarterItemBullet', { fg = c.pink })
-  hl('MiniStarterItemPrefix', { fg = c.pink })
+  hl('MiniStarterItemBullet', { fg = c.red })
+  hl('MiniStarterItemPrefix', { fg = c.red })
   hl('MiniStarterSection', { link = 'Title' })
   hl('MiniStarterQuery', { fg = c.red, bold = true })
 end

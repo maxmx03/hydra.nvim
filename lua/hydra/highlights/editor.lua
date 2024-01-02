@@ -14,7 +14,7 @@ M.load = function(opts)
   hl('CursorIM', { link = 'Cursor' }) -- like cursor, but IME mode
   hl('CursorColumn', { link = 'ColorColumn' }) -- screen-column at the cursor
   hl('CursorLine', { bg = c.base02 }) -- screen-line at the cursor
-  hl('Directory', { fg = c.pink, bold = true }) -- directory names
+  hl('Directory', { fg = c.yellow, bold = true }) -- directory names
   hl('DiffAdd', { fg = c.git.add }) -- Added line
   hl('DiffChange', { fg = c.git.change }) -- Changed line
   hl('DiffDelete', { fg = c.base03, bg = c.git.delete }) -- Deleted line

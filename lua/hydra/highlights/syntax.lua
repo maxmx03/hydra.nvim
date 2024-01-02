@@ -6,7 +6,7 @@ M.load = function(opts)
   local c = opts.colors
 
   hl('Comment', { fg = c.base01, italic = true }) -- any comment
-  hl('Constant', { fg = c.orange }) -- any constant
+  hl('Constant', { fg = c.orange, bold = true }) -- any constant
   hl('String', { fg = c.purple }) -- a string constant: "this is a string"
   hl('Character', { link = 'String' }) -- a character constant: 'c', '\n'
   hl('Number', { link = 'Constant' }) -- a number constant: 234, 0xff
@@ -19,7 +19,7 @@ M.load = function(opts)
   hl('Repeat', { link = 'Keyword' }) -- for, do, while, etc.
   hl('Label', { link = 'Keyword' }) -- case, default, etc.
   hl('Operator', { fg = c.red }) -- "sizeof", "+", "*", etc.
-  hl('Keyword', { fg = c.pink, bold = true }) -- any other keyword
+  hl('Keyword', { fg = c.red, bold = true }) -- any other keyword
   hl('Exception', { link = 'Keyword' }) -- try, catch, throw
   hl('PreProc', { link = 'Keyword' }) -- generic Preprocessor
   hl('Include', { link = 'Keyword' }) -- preprocessor #include

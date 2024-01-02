@@ -29,7 +29,7 @@ M.load = function(opts)
   -- Title highlight groups.
   --   Use TelescopeTitle to override the default.
   --   Otherwise set them specifically
-  hl('TelescopeTitle', { fg = c.pink, bg = blend(c.pink, c.base04, alpha) })
+  hl('TelescopeTitle', { fg = c.red, bg = blend(c.red, c.base04, alpha) })
   hl('TelescopePromptTitle', { link = 'TelescopeTitle' })
   hl('TelescopeResultsTitle', { link = 'TelescopeTitle' })
   hl('TelescopePreviewTitle', { link = 'TelescopeTitle' })

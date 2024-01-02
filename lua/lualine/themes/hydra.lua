@@ -14,8 +14,8 @@ hydra.insert = {
 }
 
 hydra.command = {
-  a = { bg = colors.purple, fg = colors.base03 },
-  b = { bg = colors.base02, fg = colors.purple },
+  a = { bg = colors.white, fg = colors.base03 },
+  b = { bg = colors.base02, fg = colors.white },
 }
 
 hydra.visual = {

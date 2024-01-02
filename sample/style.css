@@ -1,0 +1,99 @@
+/* Resetting default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Setting background color and font family for the body */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Styling heading levels */
+h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Styling paragraphs */
+p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Styling unordered and ordered lists */
+ul,
+ol {
+  margin-bottom: 15px;
+}
+
+li {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+/* Styling links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Styling a container div */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling a specific class */
+.special-text {
+  font-style: italic;
+  font-weight: bold;
+  color: #ff9900;
+}
+
+/* Styling a specific ID */
+#header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Styling using pseudo-selectors */
+p:first-of-type {
+  font-weight: bold;
+}
+
+li:nth-child(odd) {
+  background-color: #f9f9f9;
+}

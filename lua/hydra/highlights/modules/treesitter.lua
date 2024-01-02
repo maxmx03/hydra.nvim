@@ -110,6 +110,7 @@ M.load = function(opts)
 
   -- Ruby
   hl('@label.ruby', { link = '@variable.builtin' }) -- ex: @location = ...
+  hl('@label.json', { link = '@field' }) -- ex: @location = ...
 end
 
 return M
