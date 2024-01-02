@@ -7,8 +7,8 @@ M.load = function(opts)
 
   -- hl('CmpItemAbbr') -- Highlight group for unmatched characters of each completion field.
   hl('CmpItemAbbrDeprecated', { fg = c.base01, strikethrough = true }) -- Highlight group for unmatched characters of each deprecated completion field.
-  hl('CmpItemAbbrMatch', { link = 'IncSearch' })                        -- Highlight group for matched characters of each completion field.
-  hl('CmpItemAbbrMatchFuzzy', { link = 'IncSearch' })                   -- Highlight group for fuzzy-matched characters of each completion field.
+  hl('CmpItemAbbrMatch', { link = 'IncSearch' }) -- Highlight group for matched characters of each completion field.
+  hl('CmpItemAbbrMatchFuzzy', { link = 'IncSearch' }) -- Highlight group for fuzzy-matched characters of each completion field.
   -- hl('CmpItemKind') -- Highlight group for the kind of the field.
   -- hl('CmpItemMenu') -- The menu field's highlight group.
 

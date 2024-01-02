@@ -1,4 +1,3 @@
-
 local M = {}
 
 ---@param opts hydra.highlights.load_modules.opts
@@ -26,7 +25,7 @@ M.load = function(opts)
   -- hl('NvimTreeLspDiagnosticsError') -- (DiagnosticError)
   -- hl('NvimTreeLspDiagnosticsWarning') -- (DiagnosticWarn)
   hl('NvimTreeLspDiagnosticsInformation') -- (DiagnosticInfo)
-  hl('NvimTreeLspDiagnosticsHint')        -- (DiagnosticHint)
+  hl('NvimTreeLspDiagnosticsHint') -- (DiagnosticHint)
   hl('NvimTreeGitDirty', { fg = c.git.change })
   hl('NvimTreeGitStaged', { fg = c.git.add })
   hl('NvimTreeGitMerge', { fg = c.git.change })

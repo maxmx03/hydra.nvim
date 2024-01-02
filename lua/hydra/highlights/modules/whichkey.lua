@@ -1,6 +1,5 @@
 local M = {}
 
-
 ---@param opts hydra.highlights.load_modules.opts
 M.load = function(opts)
   local hl = opts.hl
