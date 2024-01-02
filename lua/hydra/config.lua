@@ -8,6 +8,8 @@
 ---@field gitsign boolean
 ---@field dashboard boolean
 ---@field cmp boolean
+---@field navic boolean
+---@field noice boolean
 
 ---@class hydra.config
 ---@field transparent boolean
@@ -31,6 +33,7 @@ M.modules = {
   dashboard = true,
   cmp = true,
   navic = true,
+  noice = true,
 }
 
 return M
