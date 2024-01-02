@@ -4,8 +4,7 @@ local command = {
 
 local subcommands = {
   colors = function(arg)
-    local palette = require('solarized.palette')
-    local colors = palette.get_colors()
+    local colors = require('hydra.colors')
 
     local buf = vim.api.nvim_create_buf(true, true)
     local max_length = vim.tbl_count(colors)
