@@ -6,7 +6,7 @@ M.load = function(opts)
   local c = opts.colors
 
   hl('Comment', { fg = c.base01, italic = true }) -- any comment
-  hl('Constant', { fg = c.orange, bold = true }) -- any constant
+  hl('Constant', { fg = c.pink }) -- any constant
   hl('String', { fg = c.purple }) -- a string constant: "this is a string"
   hl('Character', { link = 'String' }) -- a character constant: 'c', '\n'
   hl('Number', { link = 'Constant' }) -- a number constant: 234, 0xff

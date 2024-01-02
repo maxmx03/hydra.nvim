@@ -39,7 +39,7 @@ M.load = function(opts)
   hl('@method.call', { link = 'Function' }) -- method calls
 
   hl('@constructor', { link = 'Type' }) -- constructor calls and definitions
-  hl('@parameter', { link = 'Constant' }) -- parameters of a function
+  hl('@parameter', { fg = c.orange }) -- parameters of a function
 
   hl('@keyword', { link = 'Keyword' }) -- various keywords
   hl('@keyword.coroutine', { link = 'Keyword' }) -- keywords related to coroutines (e.g. `go` in Go, `async/await` in Python)
