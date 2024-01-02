@@ -5,8 +5,6 @@ M.load = function(opts)
   local hl = opts.hl
   local c = opts.colors
   local darken = opts.color.darken
-  local blend = opts.color.blend
-  local alpha = 0.2
   local percentage = 25
 
   -- MiniCursor
@@ -19,16 +17,16 @@ M.load = function(opts)
   hl('MiniStatuslineModeReplace', { fg = c.base03, bg = c.red })
   hl('MiniStatuslineModeCommand', { fg = c.base03, bg = c.purple })
   hl('MinistatusLineFileName', {
-    bg = c.base03,
-    fg = c.purple,
+    bg = c.base04,
+    fg = c.base0,
   })
   hl('MiniStatuslineDevinfo', {
-    bg = blend(c.purple, c.base03, alpha),
-    fg = c.purple,
+    bg = c.base02,
+    fg = c.base0,
   })
   hl('MiniStatuslineFileinfo', {
-    bg = blend(c.purple, c.base03, alpha),
-    fg = c.purple,
+    bg = c.base02,
+    fg = c.base0,
   })
   hl('MiniStatuslineInactive', { fg = c.base01, bg = c.base03 })
 
