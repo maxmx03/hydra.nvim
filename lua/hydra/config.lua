@@ -14,6 +14,7 @@
 ---@field hop boolean
 ---@field illuminate boolean
 ---@field lazy boolean
+---@field mini boolean
 
 ---@class hydra.config
 ---@field transparent boolean
@@ -42,6 +43,7 @@ M.modules = {
   hop = true,
   illuminate = true,
   lazy = true,
+  mini = true,
 }
 
 return M
