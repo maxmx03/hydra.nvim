@@ -15,6 +15,7 @@
 ---@field illuminate boolean
 ---@field lazy boolean
 ---@field mini boolean
+---@field neogit boolean
 
 ---@class hydra.config
 ---@field transparent boolean
@@ -44,6 +45,7 @@ M.modules = {
   illuminate = true,
   lazy = true,
   mini = true,
+  neogit = true,
 }
 
 return M
