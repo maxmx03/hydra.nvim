@@ -9,7 +9,7 @@ M.load = function(opts)
   hl('HopNextKey', { fg = c.pink })
   hl('HopNextKey1', { fg = c.blue })
   hl('HopNextKey2', { fg = darken(c.blue, 20) })
-  hl('HopUnmatched', { fg = c.base0 })
+  hl('HopUnmatched', { fg = c.base01 })
 end
 
 return M
