@@ -6,7 +6,7 @@ M.load = function(opts)
   local c = opts.colors
 
   -- general
-  hl('DashboardHeader', { fg = c.red })
+  hl('DashboardHeader', { fg = c.teal })
   hl('DashboardFooter', { fg = c.base01 })
 
   -- Hyper
@@ -16,11 +16,11 @@ M.load = function(opts)
   hl('DashboardMruTitle', { link = 'DashboardProjectTitle' })
   hl('DashboardMruIcon', { link = 'DashboardMruTitle' })
   hl('DashboardFiles', { fg = c.base0 })
-  hl('DashboardShotCutIcon', { fg = c.purple })
+  hl('DashboardShotCutIcon', { fg = c.red })
 
   -- Doom theme
   hl('DashboardDesc', { link = 'Directory' })
-  hl('DashboardKey', { fg = c.purple })
+  hl('DashboardKey', { fg = c.red })
   hl('DashboardIcon', { link = 'Directory' })
   hl('DashboardShotCut', { fg = c.base0 })
 end
