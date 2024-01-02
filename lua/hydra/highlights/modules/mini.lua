@@ -2,7 +2,7 @@ local M = {}
 
 ---@param opts hydra.highlights.load_modules.opts
 M.load = function(opts)
-  local hl = opts.utils.set_hl
+  local hl = opts.hl
   local c = opts.colors
   local darken = opts.color.darken
   local blend = opts.color.blend
