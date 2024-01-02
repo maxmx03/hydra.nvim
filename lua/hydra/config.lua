@@ -10,6 +10,7 @@
 ---@field cmp boolean
 ---@field navic boolean
 ---@field noice boolean
+---@field bufferline boolean
 
 ---@class hydra.config
 ---@field transparent boolean
@@ -34,6 +35,7 @@ M.modules = {
   cmp = true,
   navic = true,
   noice = true,
+  bufferline = true,
 }
 
 return M
