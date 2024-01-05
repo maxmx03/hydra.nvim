@@ -1,4 +1,4 @@
-# Hydra Colorscheme
+# Hydra
 
 <div align="center">
   
