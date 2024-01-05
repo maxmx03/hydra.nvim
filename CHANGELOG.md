@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/maxmx03/hydra.nvim/compare/v1.0.0...v1.1.0) (2024-01-05)
+
+
+### Features
+
+* lua query ([ca21dc7](https://github.com/maxmx03/hydra.nvim/commit/ca21dc71ecfff9f2cbe5adc10676f6de8f72a37a))
+
 ## 1.0.0 (2024-01-02)
 
 
