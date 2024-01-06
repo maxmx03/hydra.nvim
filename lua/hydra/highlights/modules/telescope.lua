@@ -38,6 +38,7 @@ M.load = function(opts)
 
   -- Used for highlighting characters that you match.
   hl('TelescopeMatching', { link = 'IncSearch' })
+  hl('TelescopePreviewMatch', { link = 'IncSearch' })
 
   -- Used for the prompt prefix
   hl('TelescopePromptPrefix', { fg = c.red })
