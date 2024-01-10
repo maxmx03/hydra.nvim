@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/maxmx03/hydra.nvim/compare/v1.1.0...v1.2.0) (2024-01-07)
+
+
+### Features
+
+* syntax for zsh ([4b650bd](https://github.com/maxmx03/hydra.nvim/commit/4b650bdf9babb50a4fffe0e8d272631ce4235bca))
+
 ## [1.1.0](https://github.com/maxmx03/hydra.nvim/compare/v1.0.0...v1.1.0) (2024-01-05)
 
 
