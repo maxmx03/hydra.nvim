@@ -60,7 +60,7 @@ M.on_highlights = function(highlights)
   for group_name, group_val in pairs(highlights) do
     local hl = nvim_get_hl({ name = group_name, link = true })
     local val = vim.tbl_extend('force', hl, group_val)
-    vim.api.nvim_set_hl(0, group_name, val)
+    nvim_set_hl(group_name, val)
   end
 end
 
