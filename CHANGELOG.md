@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/maxmx03/hydra.nvim/compare/v1.2.0...v1.3.0) (2024-01-11)
+
+
+### Features
+
+* queries for jsx and tsx ([65a9d3c](https://github.com/maxmx03/hydra.nvim/commit/65a9d3c473af479aa3d561aed34019e909751813))
+
+
+### Bug Fixes
+
+* on_highlights ([fc51174](https://github.com/maxmx03/hydra.nvim/commit/fc51174593b36536bd189af6fd8871cff875f2f7))
+
 ## [1.2.0](https://github.com/maxmx03/hydra.nvim/compare/v1.1.0...v1.2.0) (2024-01-07)
 
 
