@@ -1,3 +1,4 @@
+vim9script
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   g:terminal_ansi_colors = [
     '#181a1f',

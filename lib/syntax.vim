@@ -1,3 +1,4 @@
+vim9script
 hi Comment guifg=#282c34 guibg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#ff7eb6 guibg=NONE gui=NONE cterm=NONE
 hi String guifg=#b392f0 guibg=NONE gui=NONE cterm=NONE

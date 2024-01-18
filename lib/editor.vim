@@ -1,3 +1,4 @@
+vim9script
 hi ColorColumn guifg=NONE guibg=#181a1f gui=NONE cterm=NONE
 hi! Conceal guifg=#53565c guibg=NONE gui=NONE cterm=NONE
 hi Cursor guifg=#1c1e24 guibg=#f97583 gui=NONE cterm=NONE
