@@ -5,6 +5,7 @@ Table of Contents                                *hydra.vim-table-of-contents*
 
 1. Hydra                                                     |hydra.vim-hydra|
   - Installation                                |hydra.vim-hydra-installation|
+  - Configuration                              |hydra.vim-hydra-configuration|
   - Commands                                        |hydra.vim-hydra-commands|
   - Docs                                                |hydra.vim-hydra-docs|
 
@@ -14,6 +15,7 @@ Table of Contents                                *hydra.vim-table-of-contents*
 
 - |hydra.vim-hydra-colorscheme|
     - |hydra.vim-installation|
+    - |hydra.vim-configuration|
     - |hydra.vim-commands|
     - |hydra.vim-docs|
 
@@ -25,6 +27,15 @@ INSTALLATION                                    *hydra.vim-hydra-installation*
 
 >vim
     Plug 'maxmx03/hydra.nvim', { 'branch': 'vim' }
+<
+
+
+CONFIGURATION                                  *hydra.vim-hydra-configuration*
+
+`set termguicolors` is enabled by default
+
+>vim
+    colorscheme hydra
 <
 
 
