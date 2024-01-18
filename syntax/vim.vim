@@ -8,3 +8,4 @@ hi! link vimOption Identifier
 hi! link vimSet Constant
 hi! link vimSetEqual Constant
 hi! link vimSetSep Delimiter
+hi! link vimMapModKey Tag
