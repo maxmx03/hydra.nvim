@@ -1,12 +1,12 @@
 vim9script
-hi Comment guifg=#282c34 guibg=NONE gui=NONE cterm=NONE
+hi Comment guifg=#53565c guibg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#ff7eb6 guibg=NONE gui=NONE cterm=NONE
 hi String guifg=#b392f0 guibg=NONE gui=NONE cterm=NONE
 hi! link Character String
 hi! link Number Constant
 hi! link Boolean Constant
 hi! link Float Constant
-hi Identifier guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
+hi Identifier guifg=#2bbac5 guibg=NONE gui=NONE cterm=NONE
 hi Function guifg=#33b1ff guibg=NONE gui=NONE cterm=NONE
 hi Statement guifg=#f97583 guibg=NONE gui=NONE cterm=NONE
 hi! link Conditional Statement
