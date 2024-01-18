@@ -40,7 +40,7 @@ hi PmenuSbar guifg=NONE guibg=#181a1f gui=NONE cterm=NONE
 hi PmenuThumb guifg=NONE guibg=#33b1ff gui=NONE cterm=NONE
 hi! link PopupNotification MessageWindow 
 hi Question guifg=#61afef guibg=#1c1e24 gui=NONE cterm=NONE
-hi QuickFixLine link ModeMsg
+hi! link QuickFixLine ModeMsg
 hi Search guifg=#53565c guibg=#282c34 gui=NONE cterm=NONE
 hi CurSearch guifg=#85e89d guibg=#282c34 gui=NONE cterm=NONE
 hi SpecialKey guifg=#53565c guibg=NONE gui=NONE cterm=NONE
