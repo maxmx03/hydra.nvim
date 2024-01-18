@@ -15,7 +15,6 @@ endif
 set termguicolors
 g:colors_name = 'hydra'
 
-
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   var colors = {
     base04: '#181a1f', # background dark
@@ -62,7 +61,6 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   ]
 endif
 
-
 hi CurSearch guifg=#85e89d guibg=#282c34
 hi link TermCursor Cursor
 
@@ -85,6 +83,7 @@ hi SignColumn guifg=#d4d4d6 guibg=#1c1e24 gui=NONE cterm=NONE
 hi IncSearch guifg=#85e89d guibg=#282c34 gui=bold
 hi LineNr guifg=#53565c guibg=#1c1e24
 hi CursorLineNr guifg=#d4d4d6 guibg=#282c34 gui=bold cterm=NONE
+hi ModeMsg guifg=#f97583 guibg=NONE gui=bold cterm=NONE
 hi NonText guifg=#53565c
 hi Normal guifg=#d4d4d6 guibg=#1c1e24 gui=NONE cterm=NONE
 hi NormalFloat guifg=#d4d4d6 guibg=#282c34 gui=NONE cterm=NONE
@@ -124,7 +123,6 @@ hi! link LineNrAbove LineNr
 hi! link LineNrBelow LineNr
 hi! link CursorLineFold FoldColumn
 hi! link CursorLineSign SignColumn
-hi! link ModeMsg Normal
 hi! link MoreMsg Normal
 hi! link VisualNOS Visual
 hi! link FloatBorder WinSeparator
