@@ -8,6 +8,7 @@
 </div>
 
 <!--toc:start-->
+
 - [Hydra Colorscheme](#hydra-colorscheme)
   - [Installation](#installation)
   - [Commands](#commands)
@@ -18,7 +19,7 @@ Hydra colorscheme is based on [onedarkpro](olimorris/onedarkpro.nvim) and [githu
 
 ## Installation
 
-```lua
+```vim
 Plug 'maxmx03/hydra.nvim', { 'branch': 'vim' }
 ```
 
@@ -28,6 +29,6 @@ Plug 'maxmx03/hydra.nvim', { 'branch': 'vim' }
 
 ## Docs
 
-```lua
+```vim
 h hydra
 ```
