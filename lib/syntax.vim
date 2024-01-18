@@ -5,7 +5,7 @@ hi String guifg=#b392f0 guibg=NONE gui=NONE cterm=NONE
 hi! link Character String
 hi! link Number Constant
 hi! link Boolean Constant
-hi! Float Constant
+hi! link Float Constant
 hi Identifier guifg=#ffffff guibg=NONE gui=NONE cterm=NONE
 hi Function guifg=#33b1ff guibg=NONE gui=NONE cterm=NONE
 hi Statement guifg=#f97583 guibg=NONE gui=NONE cterm=NONE
