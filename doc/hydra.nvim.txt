@@ -1,4 +1,4 @@
-*hydra.nvim.txt*          For NVIM v0.9.1         Last change: 2024 January 11
+*hydra.nvim.txt*          For NVIM v0.9.1         Last change: 2024 January 18
 
 ==============================================================================
 Table of Contents                               *hydra.nvim-table-of-contents*
@@ -27,6 +27,8 @@ github-theme <projekt0n/github-nvim-theme>
 
 INSTALLATION                                   *hydra.nvim-hydra-installation*
 
+Neovim users
+
 >lua
     return {
         {
@@ -48,6 +50,12 @@ INSTALLATION                                   *hydra.nvim-hydra-installation*
             end,
         },
     }
+<
+
+Vim9 Users
+
+>vim
+    Plug 'maxmx03/hydra.nvim', { 'branch': 'vim' }
 <
 
 
