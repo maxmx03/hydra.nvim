@@ -22,6 +22,7 @@ Hydra colorscheme is based on [onedarkpro](olimorris/onedarkpro.nvim) and [githu
 
 ## Installation
 
+Neovim users
 ```lua
 return {
     {
@@ -43,6 +44,11 @@ return {
         end,
     },
 }
+```
+
+Vim9 Users
+```vim
+Plug 'maxmx03/hydra.nvim', { 'branch': 'vim' }
 ```
 
 ## Configuration
