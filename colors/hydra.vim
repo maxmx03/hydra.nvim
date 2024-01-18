@@ -88,7 +88,7 @@ hi NonText guifg=#53565c
 hi Normal guifg=#d4d4d6 guibg=#1c1e24 gui=NONE cterm=NONE
 hi NormalFloat guifg=#d4d4d6 guibg=#282c34 gui=NONE cterm=NONE
 hi FloatTitle guifg=#d19a66
-hi Pmenu guifg=#d4d4d6 guibg=#282c34
+hi Pmenu guifg=#d4d4d6 guibg=#181a1f
 hi PmenuSel guifg=#33b1ff guibg=#1c1e24
 hi PmenuSbar guibg=#282c34
 hi PmenuThumb guibg=#33b1ff
