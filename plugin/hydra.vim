@@ -33,12 +33,10 @@ def CreateBuffer()
     ok: '#89ca78',
   }
 
-  var lines = []
+  var max_length = len(colors)
   for color in keys(colors)
-    add(lines, color .. " = " .. colors[color])
+    append(0, color .. repeat('.', max_length - strchars(color)) .. $'= "{colors[color]}"')
   endfor
-
-  append(0, lines)
 
   setlocal nomodifiable
 

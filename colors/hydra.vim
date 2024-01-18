@@ -1,5 +1,10 @@
 vim9script
 
+# Hydra Colorscheme for vim
+# Url: https://github.com/maxmx03/hydra.nvim
+# Maintainer: Max Del Canto <milianordelcanto@gmail.com>
+# License: MIT
+
 if exists("g:loaded_hydra")
   finish
 endif
@@ -16,48 +21,23 @@ set termguicolors
 g:colors_name = 'hydra'
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
-  var colors = {
-    base04: '#181a1f', # background dark
-    base03: '#1c1e24', # background
-    base02: '#282c34', # highlight
-    base01: '#53565c', # comment
-    base0: '#d4d4d6', # foreground
-    pink: '#ff7eb6', # constant, boolean, number, float
-    blue: '#33b1ff', # function, method
-    purple: '#b392f0', # string
-    red: '#f97583', # operator, keyword
-    yellow: '#e5c07b', # type, constructor
-    orange: '#d19a66', # parameter
-    green: '#85e89d', # htm-tag
-    teal: '#2bbac5', # field property
-    white: '#ffffff', # variable
-    add: '#89ca78',
-    change: '#d19a66',
-    delete: '#ef596f',
-    hint: '#61afef',
-    info: '#61afef',
-    warn: '#e5c07b',
-    error: '#ef596f',
-    ok: '#89ca78',
-  }
-
   g:terminal_ansi_colors = [
-    colors.base04,
-    colors.red,
-    colors.green,
-    colors.yellow,
-    colors.blue,
-    colors.pink,
-    colors.teal,
-    colors.base0,
-    colors.base0,
-    colors.red,
-    colors.green,
-    colors.yellow,
-    colors.blue,
-    colors.purple,
-    colors.orange,
-    colors.white
+    '#181a1f',
+    '#f97583',
+    '#85e89d',
+    '#e5c07b',
+    '#33b1ff',
+    '#ff7eb6',
+    '#2bbac5',
+    '#d4d4d6',
+    '#d4d4d6',
+    '#f97583',
+    '#85e89d',
+    '#e5c07b',
+    '#33b1ff',
+    '#b392f0',
+    '#d19a66',
+    '#ffffff',
   ]
 endif
 
