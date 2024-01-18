@@ -78,7 +78,7 @@ hi diffSubname guifg=#b392f0 guibg=NONE gui=NONE cterm=NONE
 hi DiffText guifg=#33b1ff gui=reverse cterm=reverse
 hi EndOfBuffer guifg=#1c1e24
 hi ErrorMsg guifg=#ef596f
-hi VertSplit guibg=#e5c07b guifg=#1c1e24 gui=NONE cterm=NONE
+hi VertSplit guifg=#e5c07b guibg=#1c1e24 gui=NONE cterm=NONE
 hi Folded guifg=#d4d4d6 guibg=#282c34
 hi FoldColumn guifg=#d4d4d6 guibg=#181a1f gui=NONE cterm=NONE
 hi SignColumn guifg=#d4d4d6 guibg=#1c1e24 gui=NONE cterm=NONE
