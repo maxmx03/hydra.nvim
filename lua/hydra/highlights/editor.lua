@@ -63,7 +63,7 @@ M.load = function(opts)
   hl('SpellLocal', { fg = c.diagnostic.info, sp = c.diagnostic.info, underline = true }) -- Word that is recognized by the spellchecker as one that is used in another region
   hl('SpellRare', { fg = c.diagnostic.warn, sp = c.diagnostic.warn, underline = true }) -- Word that is recognized by the spellchecker as one that is hardly ever used.
   hl('StatusLine', { fg = c.base0, bg = c.base04 }) -- Status line of current window.
-  hl('StatusLineNC', { fg = c.base0, bg = c.base04 }) -- Status lines of not-current windows.
+  hl('StatusLineNC', {}) -- Status lines of not-current windows.
   hl('TabLine', { bg = c.base04 }) -- Tab pages line, not active tab page label.
   hl('TabLineFill', { fg = c.base0, bg = c.base04 }) -- Tab pages line, where there are no labels.
   hl('TabLineSel', { fg = c.white, bg = c.base03 }) -- Tab pages line, active tab page label.
