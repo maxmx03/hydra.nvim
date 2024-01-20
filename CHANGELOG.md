@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.0](https://github.com/maxmx03/hydra.nvim/compare/v1.3.0...v1.4.0) (2024-01-20)
+
+
+### Features
+
+* extras ([ec9b014](https://github.com/maxmx03/hydra.nvim/commit/ec9b0142f68658ceefbae0223f669b6e210bad2b))
+
+
+### Bug Fixes
+
+* strange characters on lualine ([ee6ba0c](https://github.com/maxmx03/hydra.nvim/commit/ee6ba0cce893bc45c17356ecd491b5631562d230))
+
 ## [1.3.0](https://github.com/maxmx03/hydra.nvim/compare/v1.2.0...v1.3.0) (2024-01-11)
 
 
