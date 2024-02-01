@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/maxmx03/hydra.nvim/compare/v1.4.0...v1.5.0) (2024-01-20)
+
+
+### Features
+
+* astro scm ([939c00c](https://github.com/maxmx03/hydra.nvim/commit/939c00c19eff7f81c69c9ceb48bcd822c2f2db19))
+
 ## [1.4.0](https://github.com/maxmx03/hydra.nvim/compare/v1.3.0...v1.4.0) (2024-01-20)
 
 
